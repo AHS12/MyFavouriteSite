@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_site_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#64a399"
+    tools:context="com.familyapp.mdazizulhakim.myfavouritesite.SiteData">
+
+    <Button
+        android:text="Button"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:background="@drawable/roundcorner"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:id="@+id/btnUrl1" />
+
+    <Button
+        android:text="Button"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundcorner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUrl1"
+        android:layout_alignRight="@+id/btnUrl1"
+        android:layout_alignEnd="@+id/btnUrl1"
+        android:id="@+id/btnUrl2" />
+
+    <Button
+        android:text="Button"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundcorner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUrl2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnUrl3" />
+
+    <Button
+        android:text="Button"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundcorner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUrl3"
+        android:layout_alignLeft="@+id/btnUrl3"
+        android:layout_alignStart="@+id/btnUrl3"
+        android:id="@+id/btnUrl4" />
+
+    <Button
+        android:text="Button"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundcorner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUrl4"
+        android:layout_alignLeft="@+id/btnUrl4"
+        android:layout_alignStart="@+id/btnUrl4"
+        android:id="@+id/btnUrl5" />
+
+    <TextView
+        android:text="Favourite"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:id="@+id/txtSite" />
+
+    <TextView
+        android:text="Website  List"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtSite"
+        android:layout_toEndOf="@+id/txtSite" />
+</RelativeLayout>
